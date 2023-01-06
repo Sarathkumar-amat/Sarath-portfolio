@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); */
+
+
+:root {
+    --primary-color: #76fb71;
+    --footer-color: #3b9b41;
+    --span-color: #fde047;
+    --section-color: #4ade80;
+}
+p{
+    text-align: justify;
+}
+
+hr {
+    margin: 2rem 0rem;
+}
+body {
+    font-family: 'Sans Pro', sans-serif;
+    margin: 0px;
+    overflow-x: hidden;
+}
+.navigation {
+    padding: 1rem;
+    background-color: var(--primary-color);
+    color: var(--span-color);
+    font-size: large;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-header {
+    font-weight: bolder;
+    font-size: x-large;
+    margin-bottom: 2rem;
+}
+
+.nav-pills {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-link {
+    background-color: var(--primary-color);
+    color: var(--span-color);
+    border: 1px solid var(--span-color);
+    padding: 0.5rem 0.5rem;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    margin: 0.5rem;
+
+}
